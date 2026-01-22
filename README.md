@@ -29,3 +29,18 @@ Build a reusable QA suite to validate REST APIs and backend data consistency for
 2. Run:
    ```bash
    newman run collections/<collection-name>.json
+
+## Postman Collection
+
+- Collection JSON: `collections/ReqRes API Test Suite.postman_collection.json`
+
+### APIs Tested
+- GET `/users`
+- GET `/users/1`
+- POST `/posts`
+
+### Validations Included
+- Status code checks (200/201)
+- Response time validation (< 1000ms)
+- Schema/data validations (id, name, email)
+
