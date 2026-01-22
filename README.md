@@ -44,3 +44,6 @@ Build a reusable QA suite to validate REST APIs and backend data consistency for
 - Response time validation (< 1000ms)
 - Schema/data validations (id, name, email)
 
+## Postman Run Results
+![Postman Run Results](reports/postman-run-results.png)
+
